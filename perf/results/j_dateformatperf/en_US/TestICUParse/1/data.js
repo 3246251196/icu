@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678817220460,
+  "lastUpdate": 1678819000255,
   "repoUrl": "https://github.com/3246251196/icu",
   "entries": {
     "Benchmark": [
@@ -2638,6 +2638,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestICUParse",
             "value": 508.4320967641983,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "3246251196ryan@gmail.com",
+            "name": "rjd",
+            "username": "3246251196"
+          },
+          "committer": {
+            "email": "3246251196ryan@gmail.com",
+            "name": "rjd",
+            "username": "3246251196"
+          },
+          "distinct": true,
+          "id": "6ab3c8eb51c2ca29cea93f3a54141c8a1d3b03db",
+          "message": "Remove previous LHA file",
+          "timestamp": "2023-03-14T17:50:53Z",
+          "tree_id": "55a4190d41e16b215a3a82c3d43fc7a4a836bedb",
+          "url": "https://github.com/3246251196/icu/commit/6ab3c8eb51c2ca29cea93f3a54141c8a1d3b03db"
+        },
+        "date": 1678818992774,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestICUParse",
+            "value": 488.5944519285422,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
