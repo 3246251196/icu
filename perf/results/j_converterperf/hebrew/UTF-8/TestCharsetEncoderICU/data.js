@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678818427654,
+  "lastUpdate": 1678895133569,
   "repoUrl": "https://github.com/3246251196/icu",
   "entries": {
     "Benchmark": [
@@ -2578,6 +2578,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestCharsetEncoderICU",
             "value": 4.71931607169515,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "3246251196ryan@gmail.com",
+            "name": "rjd",
+            "username": "3246251196"
+          },
+          "committer": {
+            "email": "3246251196ryan@gmail.com",
+            "name": "rjd",
+            "username": "3246251196"
+          },
+          "distinct": true,
+          "id": "a37e973ac46af901c58bcb7f3d30e50d22b0f5d5",
+          "message": "More changes to rjdMake script",
+          "timestamp": "2023-03-15T15:37:37Z",
+          "tree_id": "ee42e80d2ce53464ad7f2c21b544ba796cbb311f",
+          "url": "https://github.com/3246251196/icu/commit/a37e973ac46af901c58bcb7f3d30e50d22b0f5d5"
+        },
+        "date": 1678895125754,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestCharsetEncoderICU",
+            "value": 4.088743740846351,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
