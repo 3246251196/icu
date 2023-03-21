@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679400335250,
+  "lastUpdate": 1679412380267,
   "repoUrl": "https://github.com/3246251196/icu",
   "entries": {
     "Benchmark": [
@@ -2548,6 +2548,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestICUFormat",
             "value": 255.57438093690172,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "3246251196ryan@gmail.com",
+            "name": "rjd",
+            "username": "3246251196"
+          },
+          "committer": {
+            "email": "3246251196ryan@gmail.com",
+            "name": "rjd",
+            "username": "3246251196"
+          },
+          "distinct": true,
+          "id": "dcc6954cbb5e562881c3d21dd6edd90daa66a23b",
+          "message": "Allow the script to make life easier by pausing during the build and creating an LHA that should be copied across to an AmigaOne machine to progress the build. Various other improvements and fixes to script",
+          "timestamp": "2023-03-21T15:07:34Z",
+          "tree_id": "40330d401edb421acc4d2ac533702f61e29c1e34",
+          "url": "https://github.com/3246251196/icu/commit/dcc6954cbb5e562881c3d21dd6edd90daa66a23b"
+        },
+        "date": 1679412370508,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestICUFormat",
+            "value": 350.51718011025713,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
