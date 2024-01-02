@@ -82,7 +82,7 @@ echo \
       : clib       - Which c library to use for building
       : amigafiles - Generate an LHA containing necessary files to continue building on a Big Endian AmigaOne
 
-        Press CTRL-C do abort now. Will resume in 5 seconds
+        Press CTRL-C to abort now. Will resume in 5 seconds
 "
 }
 print_usage
