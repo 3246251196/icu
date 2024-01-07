@@ -24,7 +24,7 @@ function determine_last_c_library
 	C_LIB="$(ls buildAmiga/rjdLast_* | sed 's,^.*rjdLast_\(.*\),\1,')"
 	_INFO "Partial build found. Using last c library version of: $C_LIB"
     else
-	_ERROR "Was asked to determine last used c library version, but it looks like a partial build has not been performed!" 8
+	_ERROR "Was asked to determine last used c library version, but it looks like a partial build has not been performed! Or, intially, the \"clib\" option was not provided to this script." 8
     fi
 }
 
@@ -104,6 +104,9 @@ then
     elif [[ "${1}" == "clib=clib2" ]]
     then
         C_LIB=clib2
+    elif [[ "${1}" == "clib=clib4" ]]
+    then
+        C_LIB=clib4
     elif [[ "${1}" == "amigafiles" ]]
     then
 	determine_last_c_library
