@@ -162,7 +162,7 @@ touch "rjdLast_${C_LIB}"
 # default to linux
 cp ../config/mh-linux ../config/mh-unknown
 
-if [[ "${C_LIB}" == "clib2" ]]
+if [[ "${C_LIB}" == "clib2" ]] # TODO: Does this also need to apply for clib4 now?
 then
 # __timezone hack
     sed -i 's,#elif defined(__GLIBC__)$,#elif defined(__GLIBC__) \&\& !defined(__amigaos4__),g' ../common/putilimp.h
