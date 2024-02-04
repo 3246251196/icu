@@ -78,7 +78,7 @@ function lha_files_for_amiga
 function print_usage()
 {
 echo \
-"Usage: $1 [[clib=(newlib|clib2)]|amigafiles]
+"Usage: $1 [[clib=(newlib|clib2|clib4)]|amigafiles]
       : clib       - Which c library to use for building
       : amigafiles - Generate an LHA containing necessary files to continue building on a Big Endian AmigaOne
 
