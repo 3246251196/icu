@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704599426348,
+  "lastUpdate": 1707075723887,
   "repoUrl": "https://github.com/3246251196/icu",
   "entries": {
     "Benchmark": [
@@ -17758,6 +17758,102 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestScan2",
             "value": 42.314,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "3246251196ryan@gmail.com",
+            "name": "rjd324",
+            "username": "3246251196"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ff9a8a4727e0816ebcf1bed24c70e4344fc28c79",
+          "message": "Update rjdMake",
+          "timestamp": "2024-02-04T18:58:55Z",
+          "tree_id": "03b1195238ebaae33cd656e7c533707f12ee5f5c",
+          "url": "https://github.com/3246251196/icu/commit/ff9a8a4727e0816ebcf1bed24c70e4344fc28c79"
+        },
+        "date": 1707075717471,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestCtor",
+            "value": 18.5544,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestCtor1",
+            "value": 21.6756,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestCtor2",
+            "value": 22.6617,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestCtor3",
+            "value": 30.1297,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestAssign",
+            "value": 35.9334,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestAssign1",
+            "value": 33.4294,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestAssign2",
+            "value": 21.7244,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestGetch",
+            "value": 15.365,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestCatenate",
+            "value": 111.4051,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestScan",
+            "value": 22.6812,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestScan1",
+            "value": 44.7851,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestScan2",
+            "value": 42.5554,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
